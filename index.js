@@ -24,8 +24,6 @@ function createDisplay() {
 container.addEventListener("mouseover", (e) => {
     if(e.target.classList.contains("box")) {
         e.target.classList.add("falling")
-        e.target.style.height = `${bxSize}px`
-        e.target.style.width = `${bxSize}px`
     }
 })
 
